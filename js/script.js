@@ -10,3 +10,6 @@ M.Slider.init(slider,{
 
 const materialBox = document.querySelectorAll('.materialboxed');
 M.Materialbox.init(materialBox);
+
+const collap = document.querySelectorAll('.collapsible');
+M.Collapsible.init(collap);
