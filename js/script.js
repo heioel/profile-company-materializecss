@@ -3,8 +3,10 @@ M.Sidenav.init(sideNav);
 
 const slider = document.querySelectorAll('.slider');
 M.Slider.init(slider,{
-    indicators : false,
-    height : 590,
+    height : 570,
     duration : 300,
     interval : 2000
 });
+
+const materialBox = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(materialBox);
